@@ -1,6 +1,7 @@
 body {
     background-color: pink;
     user-select: none;
+    min-width: 1240px;
 }
 .main {
     display: flex;

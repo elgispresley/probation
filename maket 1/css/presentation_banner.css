@@ -1,0 +1,63 @@
+.presentation {
+  width: 100%;
+  height: 450px;
+  margin-top: 50px;
+}
+.presentation_p {
+  position: absolute;
+  margin-left: 19%;
+  margin-top: 75px;
+  color: white;
+  font-size: 35px;
+  z-index: 1;
+}
+.background-img {
+  width: 100%;
+  height: 100%;
+}
+.presentation_btn {
+  position: absolute;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #005fa3;
+  color: white;
+  font-size: 15px;
+  margin-left: 19%;
+  margin-top: 220px;
+  border: none;
+  font-family: Lato;
+  cursor: pointer;
+}
+.presentation_btn:hover {
+  background: #005fa3cc;
+}
+.icon_scrolls {
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  width: 120px;
+  margin-left: 19%;
+  margin-top: 335px;
+}
+.icon_scroll {
+   width: 7px;
+   height: 7px;
+}
+.btn_scrolls {
+  position: absolute;
+  display: flex;
+  margin-left: 1000px;
+  margin-top: 300px;
+  cursor: pointer;
+  width: 100px;
+  height: 45px;
+}
+.img_BtnScroll {
+   transition: 0.2s linear;
+}
+.img_BtnScroll:hover {
+  transform: scale(0.9)
+}

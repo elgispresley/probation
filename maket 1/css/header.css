@@ -1,0 +1,65 @@
+.main_header {
+    margin-top: -60px;
+    position: fixed;
+    background-color: white; 
+    width: 100%;
+    z-index: 100;
+    box-shadow: 4px 0 7px black;
+}
+.header {
+    margin-top: 22px;
+    width: 800px;
+    height: 60px;
+    display: flex;
+    margin-left: 19%;
+    
+}
+.logo_img {
+    width: 35px;
+    height: 35px;
+    margin-top: 4px;
+}
+.name_company {
+    font-size: 30px;
+    color: #005FA3;
+    font-family: Merriweather;
+    margin-top: 4px;
+    margin-left: 30px;
+}
+.line_info {
+    margin-left: 100px;
+    height: 57px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.info {
+   display: flex;
+   font-size: 9px;
+   font-family: Lato;
+}
+.txt-info {
+    margin-top: 2px;
+    margin-left: 7px;
+}
+.top_line {
+    height: 17px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.bot_line {
+    height: 17px;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+.links {
+    font-family: Lato;
+    font-size: 14px;
+    color: #222222;
+    text-decoration: none;
+}
+.links:hover {
+    cursor: pointer;
+    color: #2222228c;
+}

@@ -1,0 +1,56 @@
+.clients {
+    background: #EBEBEB;
+    height: 500px;
+}
+.our_clients {
+    position: absolute;
+    color: #BDBDBD;
+    font-family: Lato;
+    font-size: 20px;
+    margin-top: 80px;
+    margin-left: 230px;
+}
+.title_our_clients {
+    position: absolute;
+    font-family: Merriweather;
+    font-size: 38px;
+    margin-left: 230px;
+    margin-top: 130px;
+}
+.container_logo_company_clients {
+    position: absolute;
+    margin-left: 227px;
+    margin-top: 230px;
+    display: flex;
+    justify-content: space-between;
+    width: 820px;
+}
+.logo_company_clients {
+    width: 160px;
+}
+.scroll_icones {
+    position: absolute;
+    width: 110px;
+    margin-left: 230px;
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+.scroll_icone {
+    width: 8px;
+}
+.switch_Btns {
+    position: absolute;
+    margin-top: 355px;
+    margin-left: 942px;
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+.switch_button {
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+.switch_button:hover {
+    transform: scale(0.9);
+}

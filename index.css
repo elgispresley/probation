@@ -1,0 +1,56 @@
+ body {
+      background-color: antiquewhite;
+  }
+  .title_txt {
+      font-size: 30px;
+      font-family: monospace;
+      text-align: center;
+      margin-top: 30px;
+      color: rgb(196, 55, 55);  }
+  .works {
+      margin-top: 50px;
+      width: 1000px;
+     display: flex;
+     justify-content: space-between;
+     margin-left: 135px;
+  }
+  .maket {
+      width: 300px;
+      height: 250px;
+      border-radius: 10px;
+      border: none;
+      box-shadow: 4px 6px 15px black;
+      transition: 0.2s linear;
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .maket:hover {
+      transform: scale(1.1);
+  }
+  .backdrop {
+    width: 300px;
+    height: 250px;
+    background: black;
+    opacity: 0.5;
+    position: absolute;
+    border-radius: 10px;
+    z-index: 1;
+  }
+  .link_Tomaket {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image {
+      width: 100%;
+      border-radius: 10px;    
+      height: 250px;  
+  }
+  .maket_title {
+      position: absolute;
+      color: white;
+      font-size: 35px;
+      z-index: 2;
+  }

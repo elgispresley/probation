@@ -1,0 +1,111 @@
+.footer_page {
+   height: 60px;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   justify-content: space-around;
+   align-items: center;
+}
+.footer_page h3 {
+   font-family: Lato;
+   font-size: 12px;
+}
+
+.contacts {
+    width: 100%;
+    height: 450px;
+}
+.title_container {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 90px;
+    font-family: Merriweather;
+    color: white;
+    font-size: 35px;
+}
+.paragraf_contacts {
+    position: absolute;
+    margin-left: 230px;
+    margin-top: 160px;
+    font-family: Lato;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+.contact {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 230px;
+    margin-top: 250px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 15px;
+    width: 350px;
+}
+.contact_container {
+    display: flex;
+}
+.img_contact {
+    margin-right: 12px;
+    margin-top: -5px;
+}
+.contacts_btn {
+    position: absolute;
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #005fa3;
+  color: white;
+  font-size: 15px;
+  margin-left: 845px;
+  margin-top: 310px;
+  border: none;
+  font-family: Lato;
+  cursor: pointer;
+}
+.contacts_btn:hover {
+    background: #005fa3cc;
+}
+.connections {
+    position: absolute;
+    width: 400px;
+    height: 350px;
+    margin-left: 665px;
+    margin-top: 80px;
+}
+.input_name {
+    color: white;
+    font-size: 13px;
+}
+.input {
+    margin-top: 10px;
+    color: #BDBDBD;
+    background: none;
+    border: none;
+    border-bottom: 1px solid white;
+    font-size: 15px;
+    padding-bottom: 10px;
+    outline: none;
+}
+.input_connections_1 {
+    margin-top: 17px;
+    position: absolute;
+    width: 50px;
+
+}
+.input_connections_2 {
+    margin-top: 17px;
+   position: absolute;
+   margin-left: 200px;
+}
+.input_connections_3 {
+    position: absolute;
+    margin-top: 100px;
+    width: 300px;
+ }
+ .input_connections_3 input {
+     padding-bottom: 50px;
+     width: 380px;
+ }
